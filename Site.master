@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Dynamic Data Site</title>
+    <link rel="stylesheet"href="UI/css/bootstrap.min.css"/>
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+   <script type="text/javascript" src="UI/js/bootstrap.min.js"></script>
+    <link href="~/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+</html>
+
